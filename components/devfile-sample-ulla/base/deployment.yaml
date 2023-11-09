@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ulla
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0066-tenant/cin4s-839-0066-app/devfile-sample-ulla@sha256:ca5121e7dbdd09419910bc51899919b5dc7091556b5c6c45436909634a35ccb7
         name: my-nodejs
         ports:
         - containerPort: 3001
